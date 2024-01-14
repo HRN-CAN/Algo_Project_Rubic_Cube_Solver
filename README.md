@@ -1,11 +1,18 @@
 # Rubik's Cube Solver
 This Python script is a Rubik's Cube solver using the IDA* (Iterative Deepening A*) algorithm. It includes functions for cube manipulation, movement application, and solving. The solver generates pruning tables for piece orientation and permutation, then searches for the solution with increasing depth.
+
 Getting Started
+
 Prerequisites
+
 Make sure you have the following installed:
+
 Python (>=3.6)
+
 NumPy
+
 -> pip install numpy
+
 # Usage
 1. Open the rubiks_cube_solver.py file.
 2. Modify the cube_state variable in the __main__ block to set the initial cube state.
